@@ -5,7 +5,6 @@
  * @returns {Array<Array<Object>>} an n by n grid
  */
  const makeGrid = (n, value) => {
-    // YOUR SOLUTION GOES HERE
     const result = [];
     for(let i=0 ; i<n ; i++){
       const innerArray = [];
