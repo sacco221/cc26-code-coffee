@@ -9,10 +9,6 @@ trailing spaces should be removed
 remaining spaces should be converted into hyphens
 all other punctuation should be removed
 the string should be trimmed to at most 60 characters
-*全てLowercaseに
-*spaceは取り除き、 - と入れ替える
-*アルファベット以外は取り除く
-*最大60文字、それを超えたらTrimする
 
 Examples
 blogUrl("Motoazabu mom cures common cold using this 1 weird trick, leaving doctors speechless!") should return the string "motoazabu-mom-cures-common-cold-using-this-1-weird-trick-lea"
