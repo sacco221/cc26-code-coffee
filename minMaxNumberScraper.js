@@ -20,7 +20,6 @@ minMaxNumScraper("32 5 11 9 27 3 18") should return [3, 32]
 
 const minMaxNumScraper = (strOfNums) => {
   let strArray =[];
-  const tempArray = [];
   const resultArray = [];
   strArray = strOfNums.split(" ");
   let numArray = strArray.map(str =>  Number(str));
